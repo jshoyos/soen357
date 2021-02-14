@@ -1,13 +1,13 @@
 <h1 align="center"> Project Description </h1>
 
 # Introduction
-<p align="justify">
+<section align="justify" markdown="1">
   In recent years, health and wellness have become a worldwide concern. The occurrence of wellness and mental issues has increased and continues to rise every year.
   Some studies show that the most consistent increase in depression and other mental health issues happened from 1930 to 1990.
   However, no improvement has been observed in the past 20 years. With the impact of the COVID-19 pandemic, these issues have grown even larger.
   People around the world are forced to obey strict quarantine measures, spend more time in front of a screen than ever before, be it for work, school, or entrainment.
-  While doing so, they neglect the importance of a healthy and balanced lifestyle. For the purpose of our case study project, we designed a super app to promote a healthy lifestyle by promoting and encouraging breaks from our daily screen time and reminding us that our wellbeing is our top priority.
-</p>
+  While doing so, they neglect the importance of a healthy and balanced lifestyle. For the purpose of our case study project, we designed a [super app](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/unit-testing/creating-unit-tests-for-asp-net-mvc-applications-cs) to promote a healthy           lifestyle by promoting and encouraging breaks from our daily screen time and reminding us that our wellbeing is our top priority.
+</section>
 
 # Understanding The Problem
 <p align="justify">
