@@ -1,4 +1,4 @@
-<section align="center" markdown="1"># Project Description</section>
+<h1 align="center"> Project Description </h1>
 
 # Introduction
 <p align="justify">
