@@ -1,6 +1,6 @@
-<h1 align="justify">Project Description</h1>
+<section align="center" marksdown="1"># Project Description</section>
 
-<h2>Introduction</h2>
+# Introduction
 <p align="justify">
   In recent years, health and wellness have become a worldwide concern. The occurrence of wellness and mental issues has increased and continues to rise every year.
   Some studies show that the most consistent increase in depression and other mental health issues happened from 1930 to 1990.
@@ -9,7 +9,7 @@
   While doing so, they neglect the importance of a healthy and balanced lifestyle. For the purpose of our case study project, we designed a super app to promote a healthy lifestyle by promoting and encouraging breaks from our daily screen time and reminding us that our wellbeing is our top priority.
 </p>
 
-<h2>Understanding The Problem</h2>
+# Understanding The Problem
 <p align="justify">
   This issue is closely rooted to the pandemic introducing new social restrictions and countrywide lockdowns.
   It is important to think proactively on our daily screen time and begin to understand the long term repercussions.
