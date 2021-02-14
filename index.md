@@ -1,4 +1,5 @@
-# <h1 align="center">Project Description</h1>
+<div align="center">
+#Project Description
 
 ## Introduction
 <p align="justify">
@@ -9,4 +10,5 @@
 <p align="justify">
   This issue is closely rooted to the pandemic introducing new social restrictions and countrywide lockdowns. It is important to think proactively on our daily screen time and begin to understand the long term repercussions. Specifically, the mental and physical effects of excessive screen time usage can lead to anxiety, poor posture, sleep issues, weight gain, risk of heart disease, and more. Currently, users interact with their various devices throughout their daily activities. An individual will studHealhy/work on their computer, social interact on their cell phone and watch entertainment on their television. The users of these screen devices lack incentive or enforcement to reduce their screen time. This change can significantly reduce a user’s screen exposure and help prevent the negative effects of prolonged screen usage. There currently exists some competition for various health and activity tracking apps. Our product will differ from the competition with a specific goal in mind. We intend to create a central location where a user can access all their health and activity data they require with the goal to reduce the user’s screen time.
   </p>
+</div>
 
