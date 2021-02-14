@@ -10,32 +10,3 @@
   This issue is closely rooted to the pandemic introducing new social restrictions and countrywide lockdowns. It is important to think proactively on our daily screen time and begin to understand the long term repercussions. Specifically, the mental and physical effects of excessive screen time usage can lead to anxiety, poor posture, sleep issues, weight gain, risk of heart disease, and more. Currently, users interact with their various devices throughout their daily activities. An individual will studHealhy/work on their computer, social interact on their cell phone and watch entertainment on their television. The users of these screen devices lack incentive or enforcement to reduce their screen time. This change can significantly reduce a user’s screen exposure and help prevent the negative effects of prolonged screen usage. There currently exists some competition for various health and activity tracking apps. Our product will differ from the competition with a specific goal in mind. We intend to create a central location where a user can access all their health and activity data they require with the goal to reduce the user’s screen time.
   </p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/jshoyos/soen357/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
