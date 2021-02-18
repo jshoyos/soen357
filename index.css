@@ -19,7 +19,7 @@ body {
 	padding-left: 30%;
 	padding-right: 30%;
 }
-
+/* ------------------ Slide show CSS -------------- */
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -35,7 +35,7 @@ body {
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 20%;
   width: auto;
   margin-top: -22px;
   padding: 16px;
@@ -45,6 +45,7 @@ body {
   transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
+  background-color: grey;
 }
 
 /* Position the "next button" to the right */
@@ -97,4 +98,21 @@ body {
 @keyframes fade {
   from {opacity: .4}
   to {opacity: 1}
+}
+
+/* ------------------ Table CSS -------------- */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th{
+	text-align: center;
+}
+.ulCons{
+	list-style: none;
+	list-style-image: url(https://img.icons8.com/color/25/000000/cancel--v1.png);
+}
+.ulPros{
+	list-style: none;
+	list-style-image: url(images/checkmark.svg);
 }
