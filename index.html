@@ -3,6 +3,7 @@
 <head>
 <link rel="stylesheet" href="index.css">
 <script src="slideshow.js"></script>
+<script src="modal.js"></script>
 <title>Me-Time</title>
 <title>Page Title</title>
 <meta charset="UTF-8">
@@ -144,24 +145,134 @@
 				
 			<h2>Personas</h2>
 			<div class=slideshow-container>
-			  <div class="mySlides fade" style="display:block">
+			  <div class="mySlides2 fade" style="display:block">
 		    		<div class="numbertext" style="color:white">1/3</div>
-		    		<img src="images/Candace_Woodall_Persona.png" height="200px" width="200px"  alt="personas" style="width:100%"/>
+		    		<img src="images/Candace_Woodall_Persona.png" height="1700px" width="300px" alt="personas" style="width:100%"/>
 				</div>
 				  
-			<div class="mySlides fade">
+			<div class="mySlides2 fade">
 					  <div class="numbertext">2/3</div>
-					  <img src="images\Elizabeth_Boucher_Persona.png" height="500px" width="200px" alt="personas" style="width:100%"/>
+					  <img src="images\Elizabeth_Boucher_Persona.png" height="1700px" width="300px" alt="personas" style="width:100%"/>
 					  </div>
 						  
-			<div class="mySlides fade">
+			<div class="mySlides2 fade">
 		  	<div class="numbertext">3/3</div>
-		  	<img src="images\Eric_Spring_JM.png" height="500px" width="200px" alt="personas" style="width:100%"/>
+		  	<img src="images\Eric_Springer_Persona.png" height="1700px" width="300px" alt="personas" style="width:100%"/>
 				</div>
-			<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-		  	<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			<a class="prev" onclick="plusSlides2(-1)">&#10094;</a>
+		  	<a class="next" onclick="plusSlides2(1)">&#10095;</a>
 				</div>
 				
+				<h2 style="text-align: center;">User Journey Maps</h2>
+				<div>
+			<div class=slideshow-container-wide>
+			  <div class="mySlides3 fade" style="display:block">
+		    		<div class="numbertext" style="color:white">1/3</div>
+		    		<img id="myImg" src="images/Candace_Woodall_JM.png" alt="Candace Woodall's Journey Map" width="100%" height="100%">
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img01" width="100%">
+  <div id="caption"></div>
+</div>
+		    		</div>
+				  
+			<div class="mySlides3 fade">
+					  <div class="numbertext">2/3</div>
+					  <img id="myImg2" src="images\Elizabeth_Boucher_JM.png" alt="Elizabeth Boucher's Journey Map" width="100%" height="100%">
+
+<!-- The Modal -->
+<div id="myModal2" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img02" width="100%">
+  <div id="caption2"></div>
+</div>
+					  </div>
+						  
+			<div class="mySlides3 fade">
+		  	<div class="numbertext">3/3</div>
+		  	<img id="myImg3" src="images\Eric_Springer_JM.png" alt="Eric Springer's Journey Map" width="100%" height="100%">
+
+<!-- The Modal -->
+<div id="myModal3" class="modal">
+  <span class="close">×</span>
+  <img class="modal-content" id="img03" width="100%">
+  <div id="caption3"></div>
+</div>
+				</div>
+			<a class="prevLandscape" onclick="plusSlides3(-1)">&#10094;</a>
+		  	<a class="nextLandscape" onclick="plusSlides3(1)">&#10095;</a>
+				</div>
+			</div>
+
+
+<script>
+// Get the modal
+var modal = document.getElementById('myModal');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById('myImg');
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    modalImg.alt = this.alt;
+    captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() { 
+    modal.style.display = "none";
+}
+
+var modal2 = document.getElementById('myModal2');
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img2 = document.getElementById('myImg2');
+var modalImg2 = document.getElementById("img02");
+var captionText2 = document.getElementById("caption2");
+img2.onclick = function(){
+    modal2.style.display = "block";
+    modalImg2.src = this.src;
+    modalImg2.alt = this.alt;
+    captionText2.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span2 = document.getElementsByClassName("close")[1];
+
+// When the user clicks on <span> (x), close the modal
+span2.onclick = function() { 
+    modal2.style.display = "none";
+}
+var modal3 = document.getElementById('myModal3');
+
+var img3 = document.getElementById('myImg3');
+var modalImg3 = document.getElementById("img03");
+var captionText3 = document.getElementById("caption3");
+img3.onclick = function(){
+    modal3.style.display = "block";
+    modalImg3.src = this.src;
+    modalImg3.alt = this.alt;
+    captionText3.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span3 = document.getElementsByClassName("close")[2];
+
+// When the user clicks on <span> (x), close the modal
+span3.onclick = function() { 
+    modal3.style.display = "none";
+}
+</script>
+
+
+			<div style="padding-top: 50px;">
 		<h2>User Goals</h2>
   		<p align=justify>
   			The creation of these personas along with the responses from our survey, we were able to define goals that unite the needs and desires of many 
@@ -171,5 +282,6 @@
   		</p>
 		  <a href="failedDesigns.html">Click here to see our failed designs</a>
 		</div>
+	</div>
 	</body>
 </html>
