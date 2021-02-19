@@ -219,6 +219,10 @@ body {
   to {opacity: 1}
 }
 
+.survey{
+  border: 1px solid #555;
+}
+
 /* ------------------ Table CSS -------------- */
 table, th, td {
   border: 1px solid black;
